@@ -21,7 +21,11 @@ class Idcard
     }
 
     /**
-     * 验证出生日期
+     * [isChinaIDCardDate 验证出生日期]
+     * @param  [type]  $iY [年]
+     * @param  [type]  $iM [月]
+     * @param  [type]  $iD [日]
+     * @return boolean     [description]
      */
     public function isChinaIDCardDate($iY, $iM, $iD)
     {
@@ -35,7 +39,9 @@ class Idcard
     }
 
     /**
-     * 根据身份证号前17位, 算出识别码
+     * [getValidateCode 根据身份证号前17位, 算出识别码]
+     * @param  [type] $id [身份证号]
+     * @return [type]     [description]
      */
     public function getValidateCode($id)
     {
@@ -50,7 +56,9 @@ class Idcard
     }
 
     /**
-     * 验证身份证号
+     * [isChinaIDCard 验证身份证号]
+     * @param  [type]  $id [身份证号]
+     * @return boolean     [description]
      */
     public function isChinaIDCard($id)
     {
@@ -80,7 +88,9 @@ class Idcard
     }
 
     /**
-     * 根据身份证号，自动返回对应的性别
+     * [getChinaIDCardSex 根据身份证号，自动返回对应的性别]
+     * @param  [type] $cid [身份证号]
+     * @return [type]      [返回男女]
      */
     public function getChinaIDCardSex($cid)
     {
@@ -89,7 +99,9 @@ class Idcard
     }
 
     /**
-     * 根据身份证号，自动返回对应的星座
+     * [getChinaIDCardXZ 根据身份证号，自动返回对应的星座]
+     * @param  [type] $cid [身份证号]
+     * @return [type]      [返回星座]
      */
     public function getChinaIDCardXZ($cid)
     {
@@ -126,7 +138,9 @@ class Idcard
     }
 
     /**
-     * 根据身份证号，自动返回对应的生肖
+     * [getChinaIDCardSX 根据身份证号，自动返回对应的生肖]
+     * @param  [type] $cid [身份证号]
+     * @return [type]      [返回生肖]
      */
     public function getChinaIDCardSX($cid)
     {
@@ -174,7 +188,9 @@ class Idcard
     }
 
     /**
-     * 根据身份证号，自动返回对应的省、自治区、直辖市代
+     * [get_shenfen 根据身份证号，自动返回对应的省、自治区、直辖市代]
+     * @param  [type] $id [身份证号]
+     * @return [type]     [返回省]
      */
     public function get_shenfen($id)
     {
