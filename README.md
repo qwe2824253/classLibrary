@@ -8,4 +8,4 @@ use syx\classLibrary\Idcard;
 
 $Idcard = new Idcard();
 echo $Idcard->getChinaIDCardSex('230202199108100634');
-<code></pre>
+</code></pre>
