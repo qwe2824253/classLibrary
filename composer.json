@@ -1,0 +1,19 @@
+{
+    "name": "syx/idcard",
+    "description": "shenfenzheng",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "syxxin",
+            "email": "454642483@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "BaoCai\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
