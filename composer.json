@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "BaoCai\\": "src/"
+          "classLibrary\\": "src/"
         }
     },
     "minimum-stability": "dev",
