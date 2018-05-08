@@ -1,6 +1,7 @@
 <?php
 
-namespace app\common\lib;
+namespace syx\classLibrary;
+
 class Idcard
 {
     public $aWeight = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2]; //十七位数字本体码权重

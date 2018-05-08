@@ -1,19 +1,18 @@
 {
-    "name": "syx/idcard",
-    "description": "shenfenzheng",
-    "type": "lib",
-    "license": "MIT",
+    "name": "syx/class-library",
+    "description": "lib",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "syxxin",
             "email": "454642483@qq.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-          "classLibrary\\": "src/"
-        }
-    },
-    "minimum-stability": "dev",
+
+"autoload": {
+    "psr-4": {
+      "syx\\classLibrary": "src/"
+    }
+  }
     "require": {}
 }
