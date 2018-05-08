@@ -1,18 +1,17 @@
 {
-    "name": "syx/class-library",
-    "description": "lib",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "syxxin",
-            "email": "454642483@qq.com"
-        }
-    ],
-
-"autoload": {
+  "name": "syx/class-library",
+  "description": "lib",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "syxxin",
+      "email": "454642483@qq.com"
+    }
+  ],
+  "autoload": {
     "psr-4": {
       "syx\\classLibrary": "src/"
     }
-  }
-    "require": {}
+  },
+  "require": {}
 }
